@@ -4,9 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack server --mode=development",
+    "build:dev": "cross-env NODE_ENV=development webpack build",
+    "build:prod": "cross-env NODE_ENV=production webpack build"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "vue-loader": "^17.0.1",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  }
 }
