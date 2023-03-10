@@ -1,0 +1,13 @@
+.demo {
+  width: 100vh;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+  .message {
+    font-size: 24px;
+    font-weight: bold;
+    color:white;
+  }
+}
